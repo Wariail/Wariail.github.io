@@ -65,8 +65,8 @@ h1 {
   height: 600px;            /* increases vertical size for tall image */
   display: block;
   margin: 10px auto;
-  border: 2px solid #000;
-  border-radius: 10px;
+  /* border: 2px solid #000;*/
+  /*border-radius: 10px;*/
   box-shadow: 0 0 12px rgba(0,0,0,0.3);
 }
 
@@ -78,6 +78,7 @@ h1 {
 .project a:hover { 
   text-decoration: underline; 
 }
+
 
 
 
