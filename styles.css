@@ -45,20 +45,27 @@ h1 {
   margin: 0.75rem 0;
 }
 
-/* --- Unified styling for all project images --- */
+/* Default image styling (for Affinity Diagram) */
 .projects img {
-  max-width: 400px;       /* keeps consistent sizing */
-  width: 90%;             /* responsive scaling */
-  height: auto;           /* maintain aspect ratio */
-  display: block;
-  margin: 10px auto;      /* center images */
+  width: 70%;
+  max-width: 600px;
+  height: auto;
+  margin: 15px auto;
   border: 2px solid #000; /* black border */
   border-radius: 10px;
-  background-color: #fff; /* adds contrast for dark images */
-  padding: 8px;           /* subtle inner spacing */
-  box-shadow: 0 0 12px rgba(0,0,0,0.4); /* slight shadow for depth */
+  display: block;
+  background-color: #fff;
+  padding: 8px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.4);
 }
 
+/* Larger image style for the Sketch section */
+#sketches img {
+  width: 90%;
+  max-width: 800px; /* allows it to appear larger */
+  height: auto;
+}
+  
 .project a { 
   color: #fff; 
   text-decoration: none; 
@@ -67,6 +74,8 @@ h1 {
 .project a:hover { 
   text-decoration: underline; 
 }
+
+
 
 
 
