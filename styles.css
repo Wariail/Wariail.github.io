@@ -15,7 +15,7 @@ h1 {
 
 .left      { text-align: left; }
 .green     { color: green; }
-.wide      { width: 60%; display: block; margin: 0 auto; }  /* centers wide images */
+.wide      { width: 60%; display: block; }
 .attention { font-weight: bold; }
 
 .about { 
@@ -51,6 +51,16 @@ h1 {
   border-radius: 8px; 
 }
 
+/* Restored clean, centered sizing for project images */
+.projects img {
+  width: 300px;
+  height: 300px;
+  margin: 10px auto;
+  border: 2px solid #000; /* black border */
+  display: block;
+  border-radius: 10px;
+}
+
 .project a { 
   color: #fff; 
   text-decoration: none; 
@@ -59,6 +69,8 @@ h1 {
 .project a:hover { 
   text-decoration: underline; 
 }
+
+
 
 
 
