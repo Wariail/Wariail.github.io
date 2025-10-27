@@ -18,7 +18,7 @@ h1 {
 .wide      { width: 60%; display: block; }
 .attention { font-weight: bold; }
 
-.about    { 
+.about { 
   background: #00b3d1; 
   color: #062a30; 
   padding: 1rem 1.25rem; 
@@ -29,7 +29,7 @@ h1 {
 
 .skills,
 .projects,
-.contact  { 
+.contact { 
   background: rgba(0,0,0,0.25); 
   padding: 1rem 1.25rem; 
   border-radius: 12px; 
@@ -45,20 +45,18 @@ h1 {
   margin: 0.75rem 0;
 }
 
-.project img { 
-  max-width: 100%; 
-  display: block; 
-  border-radius: 8px; 
-}
-
-/* Strongly recommended styling for project images */
+/* --- Unified styling for all project images --- */
 .projects img {
-  width: 300px;
-  height: 300px;
-  margin: 10px auto;
-  border: 2px solid #000; /* black border */
+  max-width: 400px;       /* keeps consistent sizing */
+  width: 90%;             /* responsive scaling */
+  height: auto;           /* maintain aspect ratio */
   display: block;
+  margin: 10px auto;      /* center images */
+  border: 2px solid #000; /* black border */
   border-radius: 10px;
+  background-color: #fff; /* adds contrast for dark images */
+  padding: 8px;           /* subtle inner spacing */
+  box-shadow: 0 0 12px rgba(0,0,0,0.4); /* slight shadow for depth */
 }
 
 .project a { 
@@ -69,5 +67,7 @@ h1 {
 .project a:hover { 
   text-decoration: underline; 
 }
+
+
 
 
