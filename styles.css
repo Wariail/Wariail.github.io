@@ -67,8 +67,6 @@ h1 {
   margin: 10px auto;
   border: 2px solid #000;
   border-radius: 10px;
-  background-color: #fff;
-  padding: 8px;
   box-shadow: 0 0 12px rgba(0,0,0,0.3);
 }
 
@@ -80,6 +78,7 @@ h1 {
 .project a:hover { 
   text-decoration: underline; 
 }
+
 
 
 
