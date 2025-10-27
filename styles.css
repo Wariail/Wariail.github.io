@@ -65,9 +65,8 @@ h1 {
   height: 600px;            /* increases vertical size for tall image */
   display: block;
   margin: 10px auto;
-  border: none !important;      /* override .projects img border */
-  border-radius: 0 !important;  /* no rounding */
-  box-shadow: 0 0 12px rgba(0,0,0,0.3);  /* optional soft shadow */
+  border: none !important;
+  border-radius: 0 !important;
 }
   color: #fff; 
   text-decoration: none; 
@@ -76,6 +75,7 @@ h1 {
 .project a:hover { 
   text-decoration: underline; 
 }
+
 
 
 
