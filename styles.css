@@ -76,13 +76,11 @@ h1 {
 
 /* RESUME SECTION STYLING */
 
-/* Heading matches the others */
 .resume h2 {
   font-size: 1.75rem;
   color: #f5f5f5;
 }
 
-/* Clean list formatting */
 .resume ul {
   list-style-type: none;
   padding-left: 0;
@@ -93,7 +91,6 @@ h1 {
   margin-bottom: 0.3rem;
 }
 
-/* Resume links blend in with site theme */
 .resume a {
   color: #f5f5f5;
   text-decoration: underline;
@@ -102,6 +99,8 @@ h1 {
 .resume a:hover {
   text-decoration: none;
 }
+
+
 
 
 
