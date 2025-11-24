@@ -79,6 +79,35 @@ h1 {
   text-decoration: underline; 
 }
 
+/* Style for Resume section to match other sections */
+.resume {
+  margin: 2rem 0;            /* reduce or match spacing used in .about/.skills */
+}
+
+.resume h2 {
+  font-size: 1.75rem;        /* match h2 in other sections if they use this size */
+  color: #333;               /* same as other section headings */
+}
+
+.resume ul {
+  margin-left: 1.2rem;       /* match bullet list indent in other lists */
+  font-size: 0.95rem;        /* ensure links are not too large */
+  list-style-type: disc;
+}
+
+.resume ul li {
+  margin-bottom: 0.25rem;
+}
+
+.resume ul li a {
+  text-decoration: none;
+  color: #0073e6;            /* use your existing link color */
+}
+
+.resume ul li a:hover {
+  text-decoration: underline;
+}
+
 
 
 
